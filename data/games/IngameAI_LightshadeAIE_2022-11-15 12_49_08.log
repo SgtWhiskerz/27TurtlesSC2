@@ -1,0 +1,174 @@
+2022-11-15 12:49:16.103 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2022-11-15 12:49:16.105 | INFO     | sc2.controller:create_game:37 - Creating new game
+2022-11-15 12:49:16.106 | INFO     | sc2.controller:create_game:38 - Map:     LightshadeAIE
+2022-11-15 12:49:16.107 | INFO     | sc2.controller:create_game:39 - Players: Bot Turtles(Terran), Computer VeryHard(Random, RandomBuild)
+2022-11-15 12:49:16.109 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2022-11-15 12:49:23.539 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2022-11-15 12:49:23.541 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot Turtles(Terran)
+2022-11-15 12:49:24.289 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.10.88500
+2022-11-15 12:49:24.290 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2022-11-15 12:49:24.366 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Lightshade from name: Lightshade AIE and hash: 3553876.
+2022-11-15 12:49:24.967 | ERROR    | sc2.main:initialize_first_step:140 - Caught unknown exception in AI on_start: 'BuildUnits' object has no attribute 'ai'
+Traceback (most recent call last):
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\run.py", line 18, in <module>
+    main()
+    └ <function main at 0x00000227FD1B1510>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\run.py", line 13, in main
+    result, opponentid = run_ladder_game(bot)
+                         │               └ <sc2.player.Bot object at 0x00000227FD1A71C0>
+                         └ <function run_ladder_game at 0x00000227DA979360>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\ladder.py", line 39, in run_ladder_game
+    return stand_alone_game(bot), None
+           │                └ <sc2.player.Bot object at 0x00000227FD1A71C0>
+           └ <function stand_alone_game at 0x00000227FA8B95A0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\ladder.py", line 168, in stand_alone_game
+    return sc2.main.run_game(sc2.maps.get(map_name), [bot, Computer(Race.Random, Difficulty.VeryHard)], realtime=False,)
+           │   │    │        │   │    │   │           │    │        │    │       │          └ <Difficulty.VeryHard: 7>
+           │   │    │        │   │    │   │           │    │        │    │       └ <enum 'Difficulty'>
+           │   │    │        │   │    │   │           │    │        │    └ <Race.Random: 4>
+           │   │    │        │   │    │   │           │    │        └ <enum 'Race'>
+           │   │    │        │   │    │   │           │    └ <class 'sc2.player.Computer'>
+           │   │    │        │   │    │   │           └ <sc2.player.Bot object at 0x00000227FD1A71C0>
+           │   │    │        │   │    │   └ 'LightshadeAIE'
+           │   │    │        │   │    └ <function get at 0x00000227FA9684C0>
+           │   │    │        │   └ <module 'sc2.maps' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\maps.py'>
+           │   │    │        └ <module 'sc2' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\__init__.py'>
+           │   │    └ <function run_game at 0x00000227FAA48DC0>
+           │   └ <module 'sc2.main' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\main.py'>
+           └ <module 'sc2' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\__init__.py'>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 496, in run_game
+    result: Result = asyncio.run(_host_game(map_settings, players, **kwargs))
+                     │       │   │          │             │          └ {'realtime': False}
+                     │       │   │          │             └ [<sc2.player.Bot object at 0x00000227FD1A71C0>, <sc2.player.Computer object at 0x00000227FD1A5930>]
+                     │       │   │          └ Map(C:\Program Files (x86)\StarCraft II\maps\LightshadeAIE.SC2Map)
+                     │       │   └ <function _host_game at 0x00000227FAA489D0>
+                     │       └ <function run at 0x00000227DC62D7E0>
+                     └ <module 'asyncio' from 'C:\\Users\\sword\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object _host_game at 0x00000227FD30C740>
+           │    └ <function BaseEventLoop.run_until_complete at 0x00000227DC62F1C0>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x00000227DC6DBBE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000227DC630CA0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000227DC59C280>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 369, in _host_game
+    result = await _play_game(players[0], client, realtime, portconfig, game_time_limit, rgb_render_config)
+                   │          │           │       │         │           │                └ None
+                   │          │           │       │         │           └ None
+                   │          │           │       │         └ None
+                   │          │           │       └ False
+                   │          │           └ <sc2.client.Client object at 0x00000227FD1A46A0>
+                   │          └ [<sc2.player.Bot object at 0x00000227FD1A71C0>, <sc2.player.Computer object at 0x00000227FD1A5930>]
+                   └ <function _play_game at 0x00000227FAA48820>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 226, in _play_game
+    result = await _play_game_ai(client, player_id, player.ai, realtime, game_time_limit)
+                   │             │       │          │      │   │         └ None
+                   │             │       │          │      │   └ False
+                   │             │       │          │      └ <turtles.bot.Turtles object at 0x00000227DC626C80>
+                   │             │       │          └ <sc2.player.Bot object at 0x00000227FD1A71C0>
+                   │             │       └ 1
+                   │             └ <sc2.client.Client object at 0x00000227FD1A46A0>
+                   └ <function _play_game_ai at 0x00000227FAA48670>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 145, in _play_game_ai
+    result = await initialize_first_step()
+                   └ <function _play_game_ai.<locals>.initialize_first_step at 0x00000227FD1B2440>
+
+> File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 136, in initialize_first_step
+    await ai.on_start()
+          │  └ <function KnowledgeBot.on_start at 0x00000227FCE66CB0>
+          └ <turtles.bot.Turtles object at 0x00000227DC626C80>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\knowledges\knowledge_bot.py", line 71, in on_start
+    await self.knowledge.start()
+          │    │         └ <function Knowledge.start at 0x00000227FAACB010>
+          │    └ <sharpy.knowledges.knowledge.Knowledge object at 0x00000227DA606590>
+          └ <turtles.bot.Turtles object at 0x00000227DC626C80>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\knowledges\knowledge.py", line 151, in start
+    await manager.post_start()
+          │       └ <function ActManager.post_start at 0x00000227FA934F70>
+          └ <sharpy.managers.core.act_manager.ActManager object at 0x00000227FD403E20>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\managers\core\act_manager.py", line 25, in post_start
+    self._act = await self._act_or_func()
+    │                 │    └ <bound method Turtles.create_plan of <turtles.bot.Turtles object at 0x00000227DC626C80>>
+    │                 └ <sharpy.managers.core.act_manager.ActManager object at 0x00000227FD403E20>
+    └ <sharpy.managers.core.act_manager.ActManager object at 0x00000227FD403E20>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\turtles\bot.py", line 53, in create_plan
+    self.build = ReactiveBio()
+    │    │       └ <class 'turtles.reactivebio.ReactiveBio'>
+    │    └ <function BotAI.build at 0x00000227FA83BE20>
+    └ <turtles.bot.Turtles object at 0x00000227DC626C80>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\turtles\reactivebio.py", line 172, in __init__
+    BuildUnits()
+    └ <class 'turtles.decisions.unitdecisions.BuildUnits'>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\turtles\decisions\unitdecisions.py", line 47, in __init__
+    self.request_units()
+    │    └ <function BuildUnits.request_units at 0x00000227FD1B0550>
+    └ <turtles.decisions.unitdecisions.BuildUnits object at 0x00000227FEB46FB0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\turtles\decisions\unitdecisions.py", line 109, in request_units
+    threats = self.get_threats()
+              │    └ <function BuildUnits.get_threats at 0x00000227FD1B04C0>
+              └ <turtles.decisions.unitdecisions.BuildUnits object at 0x00000227FEB46FB0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\turtles\decisions\unitdecisions.py", line 57, in get_threats
+    enemy_units = self.ai.all_enemy_units
+                  └ <turtles.decisions.unitdecisions.BuildUnits object at 0x00000227FEB46FB0>
+
+AttributeError: 'BuildUnits' object has no attribute 'ai'
+2022-11-15 12:49:25.062 | ERROR    | sc2.main:initialize_first_step:141 - Resigning due to previous error
+2022-11-15 12:49:25.066 | Result: Defeat
+2022-11-15 12:49:25.067 | Duration: 00:00
+2022-11-15 12:49:25.068 | Step time avg: 0
+2022-11-15 12:49:25.069 | Step time max: 0
+2022-11-15 12:49:25.069 | [LostUnitsContents] My lost units minerals and gas: (0, 0)
+2022-11-15 12:49:25.070 | [LostUnitsContents] My lost units minerals by score: 0.0
+2022-11-15 12:49:25.070 | [LostUnitsContents] Enemy lost units minerals and gas: (0, 0)
+2022-11-15 12:49:25.071 | [LostUnitsContents] Enemy lost units minerals by score: 0.0
+2022-11-15 12:49:25.071 | [GameAnalyzerEnd] Own units:
+2022-11-15 12:49:25.072 | [GameAnalyzerEnd] Enemy units:
+2022-11-15 12:49:25.073 | [GameAnalyzerEnd] Minerals max 0 Average 0
+2022-11-15 12:49:25.073 | [GameAnalyzerEnd] Vespene max 0 Average 0
+2022-11-15 12:49:25.074 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot Turtles(Terran): Defeat
+2022-11-15 12:49:25.975 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was Status.in_game)
+2022-11-15 12:49:25.978 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.quit (was Status.launched)
+2022-11-15 12:49:25.980 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 56911...
+2022-11-15 12:49:25.981 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

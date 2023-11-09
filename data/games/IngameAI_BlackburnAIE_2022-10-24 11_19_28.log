@@ -1,0 +1,210 @@
+2022-10-24 11:19:34.575 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2022-10-24 11:19:34.577 | INFO     | sc2.controller:create_game:37 - Creating new game
+2022-10-24 11:19:34.579 | INFO     | sc2.controller:create_game:38 - Map:     BlackburnAIE
+2022-10-24 11:19:34.580 | INFO     | sc2.controller:create_game:39 - Players: Bot Turtles(Terran), Computer VeryHard(Random, RandomBuild)
+2022-10-24 11:19:34.582 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2022-10-24 11:19:42.326 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2022-10-24 11:19:42.328 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot Turtles(Terran)
+2022-10-24 11:19:42.856 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.10.88500
+2022-10-24 11:19:42.858 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2022-10-24 11:19:42.940 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Blackburn from name: Blackburn AIE and hash: 2657237.
+2022-10-24 11:19:43.549 | [Start] My race: Terran
+2022-10-24 11:19:43.551 | [Start] Opponent race: Random
+2022-10-24 11:19:43.552 | [Start] OpponentId: None
+2022-10-24 11:19:43.807 | 00:00    7ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-24 11:19:43.862 | 00:01    5ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2022-10-24 11:19:45.023 | 00:12    5ms   70M    0G  13/ 15U [ActUnit] SCV from COMMANDCENTER at (36.5, 31.5)
+2022-10-24 11:19:46.535 | 00:24   15ms   75M    0G  14/ 15U [ActUnit] SCV from COMMANDCENTER at (36.5, 31.5)
+2022-10-24 11:19:49.032 | 00:42    7ms  270M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (36.5, 31.5)
+2022-10-24 11:19:49.073 | ERROR    | sc2.main:run_bot_iteration:161 - Caught unknown exception: 'Pos' object is not subscriptable
+Traceback (most recent call last):
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\run.py", line 18, in <module>
+    main()
+    └ <function main at 0x00000136A7F98670>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\run.py", line 13, in main
+    result, opponentid = run_ladder_game(bot)
+                         │               └ <sc2.player.Bot object at 0x00000136A7F802B0>
+                         └ <function run_ladder_game at 0x00000136859992D0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\ladder.py", line 39, in run_ladder_game
+    return stand_alone_game(bot), None
+           │                └ <sc2.player.Bot object at 0x00000136A7F802B0>
+           └ <function stand_alone_game at 0x00000136A58695A0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\ladder.py", line 168, in stand_alone_game
+    return sc2.main.run_game(sc2.maps.get(map_name), [bot, Computer(Race.Random, Difficulty.VeryHard)], realtime=False,)
+           │   │    │        │   │    │   │           │    │        │    │       │          └ <Difficulty.VeryHard: 7>
+           │   │    │        │   │    │   │           │    │        │    │       └ <enum 'Difficulty'>
+           │   │    │        │   │    │   │           │    │        │    └ <Race.Random: 4>
+           │   │    │        │   │    │   │           │    │        └ <enum 'Race'>
+           │   │    │        │   │    │   │           │    └ <class 'sc2.player.Computer'>
+           │   │    │        │   │    │   │           └ <sc2.player.Bot object at 0x00000136A7F802B0>
+           │   │    │        │   │    │   └ 'BlackburnAIE'
+           │   │    │        │   │    └ <function get at 0x00000136A5918550>
+           │   │    │        │   └ <module 'sc2.maps' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\maps.py'>
+           │   │    │        └ <module 'sc2' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\__init__.py'>
+           │   │    └ <function run_game at 0x00000136A59F4E50>
+           │   └ <module 'sc2.main' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\main.py'>
+           └ <module 'sc2' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\__init__.py'>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 496, in run_game
+    result: Result = asyncio.run(_host_game(map_settings, players, **kwargs))
+                     │       │   │          │             │          └ {'realtime': False}
+                     │       │   │          │             └ [<sc2.player.Bot object at 0x00000136A7F802B0>, <sc2.player.Computer object at 0x00000136A7F83B50>]
+                     │       │   │          └ Map(C:\Program Files (x86)\StarCraft II\maps\BlackburnAIE.SC2Map)
+                     │       │   └ <function _host_game at 0x00000136A59F4A60>
+                     │       └ <function run at 0x000001368764D7E0>
+                     └ <module 'asyncio' from 'C:\\Users\\sword\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object _host_game at 0x00000136A7F3EB20>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000001368764F1C0>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x00000136876FBBE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000013687650CA0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000136875BC280>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 369, in _host_game
+    result = await _play_game(players[0], client, realtime, portconfig, game_time_limit, rgb_render_config)
+                   │          │           │       │         │           │                └ None
+                   │          │           │       │         │           └ None
+                   │          │           │       │         └ None
+                   │          │           │       └ False
+                   │          │           └ <sc2.client.Client object at 0x00000136A7F83520>
+                   │          └ [<sc2.player.Bot object at 0x00000136A7F802B0>, <sc2.player.Computer object at 0x00000136A7F83B50>]
+                   └ <function _play_game at 0x00000136A59F48B0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 226, in _play_game
+    result = await _play_game_ai(client, player_id, player.ai, realtime, game_time_limit)
+                   │             │       │          │      │   │         └ None
+                   │             │       │          │      │   └ False
+                   │             │       │          │      └ <turtles.bot.Turtles object at 0x0000013687646C80>
+                   │             │       │          └ <sc2.player.Bot object at 0x00000136A7F802B0>
+                   │             │       └ 1
+                   │             └ <sc2.client.Client object at 0x00000136A7F83520>
+                   └ <function _play_game_ai at 0x00000136A59F4700>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 196, in _play_game_ai
+    await run_bot_iteration(iteration)  # Main bot loop
+          │                 └ 238
+          └ <function _play_game_ai.<locals>.run_bot_iteration at 0x00000136A7F993F0>
+
+> File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 156, in run_bot_iteration
+    await ai.on_step(iteration)
+          │  │       └ 238
+          │  └ <function SkeletonBot.on_step at 0x00000136A5A98040>
+          └ <turtles.bot.Turtles object at 0x0000013687646C80>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\knowledges\skeleton_bot.py", line 64, in on_step
+    await self.knowledge.update(iteration)
+          │    │         │      └ 238
+          │    │         └ <function Knowledge.update at 0x00000136A5A7B0A0>
+          │    └ <sharpy.knowledges.knowledge.Knowledge object at 0x0000013685626590>
+          └ <turtles.bot.Turtles object at 0x0000013687646C80>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\knowledges\knowledge.py", line 161, in update
+    await manager.update()
+          │       └ <function ActManager.update at 0x00000136A58AD090>
+          └ <sharpy.managers.core.act_manager.ActManager object at 0x00000136A80BBB50>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\managers\core\act_manager.py", line 32, in update
+    await self._act.execute()
+          │    │    └ <function BuildOrder.execute at 0x00000136A7E97250>
+          │    └ <sharpy.plans.build_order.BuildOrder object at 0x00000136A98BD300>
+          └ <sharpy.managers.core.act_manager.ActManager object at 0x00000136A80BBB50>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\plans\build_order.py", line 290, in execute
+    if not await order.execute():
+                 │     └ <function ProxyMarauder.execute at 0x00000136A7F6B880>
+                 └ <turtles.proxymarauders.ProxyMarauder object at 0x00000136A98BCAF0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\turtles\proxymarauders.py", line 153, in execute
+    return await super().execute()
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\plans\build_order.py", line 290, in execute
+    if not await order.execute():
+                 │     └ <function SequentialList.execute at 0x00000136A7E96A70>
+                 └ <sharpy.plans.sequential_list.SequentialList object at 0x00000136A98BD570>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\plans\sequential_list.py", line 27, in execute
+    result = await order.execute()
+                   │     └ <function BuildPosition.execute at 0x00000136A7E74E50>
+                   └ <sharpy.plans.acts.build_position.BuildPosition object at 0x00000136A98BD1B0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\plans\acts\build_position.py", line 31, in execute
+    worker = self.get_worker_builder(position, self.builder_tag)
+             │    │                  │         │    └ None
+             │    │                  │         └ <sharpy.plans.acts.build_position.BuildPosition object at 0x00000136A98BD1B0>
+             │    │                  └ <turtles.proxymarauders.Pos object at 0x00000136A98BCB80>
+             │    └ <function ActBase.get_worker_builder at 0x00000136A5A79A20>
+             └ <sharpy.plans.acts.build_position.BuildPosition object at 0x00000136A98BD1B0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\plans\acts\act_base.py", line 206, in get_worker_builder
+    ).sorted_by_distance_to(position)
+                            └ <turtles.proxymarauders.Pos object at 0x00000136A98BCB80>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\units.py", line 514, in sorted_by_distance_to
+    return self.subgroup(self._list_sorted_by_distance_to(position, reverse=reverse))
+           │    │        │    │                           │                 └ False
+           │    │        │    │                           └ <turtles.proxymarauders.Pos object at 0x00000136A98BCB80>
+           │    │        │    └ <function Units._list_sorted_by_distance_to at 0x0000013697190D30>
+           │    │        └ [Unit(name='SCV', tag=4345036801), Unit(name='SCV', tag=4350803969), Unit(name='SCV', tag=4351590401), Unit(name='SCV', tag=4...
+           │    └ <function Units.subgroup at 0x0000013697190B80>
+           └ [Unit(name='SCV', tag=4345036801), Unit(name='SCV', tag=4350803969), Unit(name='SCV', tag=4351590401), Unit(name='SCV', tag=4...
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\units.py", line 505, in _list_sorted_by_distance_to
+    unit_dist_dict = {unit.tag: dist for unit, dist in zip(self, distances)}
+                                                           │     └ <generator object BotAIInternal._distance_units_to_pos.<locals>.<genexpr> at 0x00000136A7F3FC30>
+                                                           └ [Unit(name='SCV', tag=4345036801), Unit(name='SCV', tag=4350803969), Unit(name='SCV', tag=4351590401), Unit(name='SCV', tag=4...
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\units.py", line 505, in <dictcomp>
+    unit_dist_dict = {unit.tag: dist for unit, dist in zip(self, distances)}
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\bot_ai_internal.py", line 896, in <genexpr>
+    return (self.distance_math_hypot(u.position_tuple, pos) for u in units)
+            │    │                   │ │               │        └ Unit(name='SCV', tag=4345036801)
+            │    │                   │ │               └ <turtles.proxymarauders.Pos object at 0x00000136A98BCB80>
+            │    │                   │ └ <property object at 0x0000013688336930>
+            │    │                   └ Unit(name='SCV', tag=4345036801)
+            │    └ <staticmethod(<function BotAIInternal.distance_math_hypot at 0x00000136A57EA7A0>)>
+            └ <turtles.bot.Turtles object at 0x0000013687646C80>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\bot_ai_internal.py", line 845, in distance_math_hypot
+    return math.hypot(p1[0] - p2[0], p1[1] - p2[1])
+           │    │     │       │      │       └ <turtles.proxymarauders.Pos object at 0x00000136A98BCB80>
+           │    │     │       │      └ (36.197509765625, 27.817138671875)
+           │    │     │       └ <turtles.proxymarauders.Pos object at 0x00000136A98BCB80>
+           │    │     └ (36.197509765625, 27.817138671875)
+           │    └ <built-in function hypot>
+           └ <module 'math' (built-in)>
+
+TypeError: 'Pos' object is not subscriptable
+2022-10-24 11:19:49.220 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 57799...
+2022-10-24 11:19:49.222 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

@@ -1,0 +1,163 @@
+2022-10-24 11:13:22.470 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2022-10-24 11:13:22.472 | INFO     | sc2.controller:create_game:37 - Creating new game
+2022-10-24 11:13:22.474 | INFO     | sc2.controller:create_game:38 - Map:     BlackburnAIE
+2022-10-24 11:13:22.475 | INFO     | sc2.controller:create_game:39 - Players: Bot Turtles(Terran), Computer VeryHard(Random, RandomBuild)
+2022-10-24 11:13:22.478 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2022-10-24 11:13:31.917 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2022-10-24 11:13:31.920 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot Turtles(Terran)
+2022-10-24 11:13:32.437 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.10.88500
+2022-10-24 11:13:32.439 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2022-10-24 11:13:32.516 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Blackburn from name: Blackburn AIE and hash: 2657237.
+2022-10-24 11:13:33.103 | ERROR    | sc2.main:initialize_first_step:140 - Caught unknown exception in AI on_start: 'ProxyMarauder' object has no attribute 'zone'
+Traceback (most recent call last):
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\run.py", line 18, in <module>
+    main()
+    └ <function main at 0x000001BEFFA885E0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\run.py", line 13, in main
+    result, opponentid = run_ladder_game(bot)
+                         │               └ <sc2.player.Bot object at 0x000001BEFFA7C1F0>
+                         └ <function run_ladder_game at 0x000001BEDD4692D0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\ladder.py", line 39, in run_ladder_game
+    return stand_alone_game(bot), None
+           │                └ <sc2.player.Bot object at 0x000001BEFFA7C1F0>
+           └ <function stand_alone_game at 0x000001BEFD3695A0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\ladder.py", line 168, in stand_alone_game
+    return sc2.main.run_game(sc2.maps.get(map_name), [bot, Computer(Race.Random, Difficulty.VeryHard)], realtime=False,)
+           │   │    │        │   │    │   │           │    │        │    │       │          └ <Difficulty.VeryHard: 7>
+           │   │    │        │   │    │   │           │    │        │    │       └ <enum 'Difficulty'>
+           │   │    │        │   │    │   │           │    │        │    └ <Race.Random: 4>
+           │   │    │        │   │    │   │           │    │        └ <enum 'Race'>
+           │   │    │        │   │    │   │           │    └ <class 'sc2.player.Computer'>
+           │   │    │        │   │    │   │           └ <sc2.player.Bot object at 0x000001BEFFA7C1F0>
+           │   │    │        │   │    │   └ 'BlackburnAIE'
+           │   │    │        │   │    └ <function get at 0x000001BEFD418550>
+           │   │    │        │   └ <module 'sc2.maps' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\maps.py'>
+           │   │    │        └ <module 'sc2' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\__init__.py'>
+           │   │    └ <function run_game at 0x000001BEFD4F8E50>
+           │   └ <module 'sc2.main' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\main.py'>
+           └ <module 'sc2' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\__init__.py'>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 496, in run_game
+    result: Result = asyncio.run(_host_game(map_settings, players, **kwargs))
+                     │       │   │          │             │          └ {'realtime': False}
+                     │       │   │          │             └ [<sc2.player.Bot object at 0x000001BEFFA7C1F0>, <sc2.player.Computer object at 0x000001BEFFA7FBB0>]
+                     │       │   │          └ Map(C:\Program Files (x86)\StarCraft II\maps\BlackburnAIE.SC2Map)
+                     │       │   └ <function _host_game at 0x000001BEFD4F8A60>
+                     │       └ <function run at 0x000001BEDF11D7E0>
+                     └ <module 'asyncio' from 'C:\\Users\\sword\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object _host_game at 0x000001BEFFA3E650>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000001BEDF11F1C0>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000001BEDF1CBBE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001BEDF120CA0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001BEDF08C280>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 369, in _host_game
+    result = await _play_game(players[0], client, realtime, portconfig, game_time_limit, rgb_render_config)
+                   │          │           │       │         │           │                └ None
+                   │          │           │       │         │           └ None
+                   │          │           │       │         └ None
+                   │          │           │       └ False
+                   │          │           └ <sc2.client.Client object at 0x000001BEFFA7F580>
+                   │          └ [<sc2.player.Bot object at 0x000001BEFFA7C1F0>, <sc2.player.Computer object at 0x000001BEFFA7FBB0>]
+                   └ <function _play_game at 0x000001BEFD4F88B0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 226, in _play_game
+    result = await _play_game_ai(client, player_id, player.ai, realtime, game_time_limit)
+                   │             │       │          │      │   │         └ None
+                   │             │       │          │      │   └ False
+                   │             │       │          │      └ <turtles.bot.Turtles object at 0x000001BEDF116C80>
+                   │             │       │          └ <sc2.player.Bot object at 0x000001BEFFA7C1F0>
+                   │             │       └ 1
+                   │             └ <sc2.client.Client object at 0x000001BEFFA7F580>
+                   └ <function _play_game_ai at 0x000001BEFD4F8700>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 145, in _play_game_ai
+    result = await initialize_first_step()
+                   └ <function _play_game_ai.<locals>.initialize_first_step at 0x000001BEFFA892D0>
+
+> File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 136, in initialize_first_step
+    await ai.on_start()
+          │  └ <function KnowledgeBot.on_start at 0x000001BEFF974670>
+          └ <turtles.bot.Turtles object at 0x000001BEDF116C80>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\knowledges\knowledge_bot.py", line 71, in on_start
+    await self.knowledge.start()
+          │    │         └ <function Knowledge.start at 0x000001BEFD57B010>
+          │    └ <sharpy.knowledges.knowledge.Knowledge object at 0x000001BEDD0F6590>
+          └ <turtles.bot.Turtles object at 0x000001BEDF116C80>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\knowledges\knowledge.py", line 151, in start
+    await manager.post_start()
+          │       └ <function ActManager.post_start at 0x000001BEFD3E1000>
+          └ <sharpy.managers.core.act_manager.ActManager object at 0x000001BEFFBBBFD0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\managers\core\act_manager.py", line 25, in post_start
+    self._act = await self._act_or_func()
+    │                 │    └ <bound method Turtles.create_plan of <turtles.bot.Turtles object at 0x000001BEDF116C80>>
+    │                 └ <sharpy.managers.core.act_manager.ActManager object at 0x000001BEFFBBBFD0>
+    └ <sharpy.managers.core.act_manager.ActManager object at 0x000001BEFFBBBFD0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\turtles\bot.py", line 63, in create_plan
+    return BuildOrder([ProxyMarauder(), tactics])
+           │           │                └ [<sharpy.plans.tactics.cancel_building.PlanCancelBuilding object at 0x000001BE815BC5E0>, <sharpy.plans.tactics.terran.lower_d...
+           │           └ <class 'turtles.proxymarauders.ProxyMarauder'>
+           └ <class 'sharpy.plans.build_order.BuildOrder'>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\turtles\proxymarauders.py", line 94, in __init__
+    BuildPosition(UnitTypeId.BARRACKS, self.zone.center_location, exact=False, only_once=True),
+    │             │          │         └ <turtles.proxymarauders.ProxyMarauder object at 0x000001BE815BCB20>
+    │             │          └ UnitTypeId.BARRACKS
+    │             └ <enum 'UnitTypeId'>
+    └ <class 'sharpy.plans.acts.build_position.BuildPosition'>
+
+AttributeError: 'ProxyMarauder' object has no attribute 'zone'
+2022-10-24 11:13:33.220 | ERROR    | sc2.main:initialize_first_step:141 - Resigning due to previous error
+2022-10-24 11:13:33.224 | Result: Defeat
+2022-10-24 11:13:33.225 | Duration: 00:00
+2022-10-24 11:13:33.226 | Step time avg: 0
+2022-10-24 11:13:33.227 | Step time max: 0
+2022-10-24 11:13:33.227 | [LostUnitsContents] My lost units minerals and gas: (0, 0)
+2022-10-24 11:13:33.228 | [LostUnitsContents] My lost units minerals by score: 0.0
+2022-10-24 11:13:33.229 | [LostUnitsContents] Enemy lost units minerals and gas: (0, 0)
+2022-10-24 11:13:33.230 | [LostUnitsContents] Enemy lost units minerals by score: 0.0
+2022-10-24 11:13:33.230 | [GameAnalyzerEnd] Own units:
+2022-10-24 11:13:33.231 | [GameAnalyzerEnd] Enemy units:
+2022-10-24 11:13:33.231 | [GameAnalyzerEnd] Minerals max 0 Average 0
+2022-10-24 11:13:33.232 | [GameAnalyzerEnd] Vespene max 0 Average 0
+2022-10-24 11:13:33.233 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot Turtles(Terran): Defeat
+2022-10-24 11:13:34.191 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was Status.in_game)
+2022-10-24 11:13:34.193 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.quit (was Status.launched)
+2022-10-24 11:13:34.194 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 55049...
+2022-10-24 11:13:34.195 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

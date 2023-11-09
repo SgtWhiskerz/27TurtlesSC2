@@ -1,0 +1,47 @@
+2022-11-04 19:43:28.470 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2022-11-04 19:43:28.472 | INFO     | sc2.controller:create_game:37 - Creating new game
+2022-11-04 19:43:28.473 | INFO     | sc2.controller:create_game:38 - Map:     2000AtmospheresAIE
+2022-11-04 19:43:28.474 | INFO     | sc2.controller:create_game:39 - Players: Bot Turtles(Terran), Computer VeryHard(Random, RandomBuild)
+2022-11-04 19:43:28.476 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2022-11-04 19:43:37.682 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2022-11-04 19:43:37.684 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot Turtles(Terran)
+2022-11-04 19:43:38.473 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.10.88500
+2022-11-04 19:43:38.475 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2022-11-04 19:43:38.554 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Atmospheres2000 from name: 2000 Atmospheres AIE and hash: 3307847.
+2022-11-04 19:43:39.640 | [Start] My race: Terran
+2022-11-04 19:43:39.641 | [Start] Opponent race: Random
+2022-11-04 19:43:39.642 | [Start] OpponentId: None
+2022-11-04 19:43:39.847 | 00:00    8ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-11-04 19:43:39.924 | 00:01    8ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2022-11-04 19:43:40.877 | 00:09    7ms   85M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-11-04 19:43:40.919 | 00:09    8ms   90M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2022-11-04 19:43:41.526 | 00:15    6ms    5M    0G  13/ 15U [ActUnit] SCV from COMMANDCENTER at (57.5, 60.5)
+2022-11-04 19:43:42.973 | 00:27    7ms  115M    0G  14/ 15U [ActUnit] SCV from COMMANDCENTER at (57.5, 60.5)
+2022-11-04 19:43:44.205 | 00:36    8ms    0M    0G  15/ 23U [BuildGas] Building REFINERY to (50.5, 63.5)
+2022-11-04 19:43:44.631 | 00:39    9ms    0M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (57.5, 60.5)
+2022-11-04 19:43:45.199 | 00:44    7ms   45M    0G  16/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-11-04 19:43:45.218 | 00:44   11ms   60M    0G  16/ 23U [GameAnalyzer] Income advantage is now Even
+2022-11-04 19:43:46.508 | 00:51    9ms   95M    0G  16/ 23U [ActUnit] SCV from COMMANDCENTER at (57.5, 60.5)
+2022-11-04 19:43:46.708 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.ended (was Status.in_game)
+2022-11-04 19:43:46.710 | Result: Defeat
+2022-11-04 19:43:46.711 | Duration: 00:53
+2022-11-04 19:43:46.712 | Step time min: 6
+2022-11-04 19:43:46.715 | Step time avg: 8
+2022-11-04 19:43:46.716 | Step time max: 62
+2022-11-04 19:43:46.717 | [LostUnitsContents] My lost units minerals and gas: (0, 0)
+2022-11-04 19:43:46.717 | [LostUnitsContents] My lost units minerals by score: 0.0
+2022-11-04 19:43:46.718 | [LostUnitsContents] Enemy lost units minerals and gas: (0, 0)
+2022-11-04 19:43:46.719 | [LostUnitsContents] Enemy lost units minerals by score: 0.0
+2022-11-04 19:43:46.720 | [GameAnalyzerEnd] Own units:
+2022-11-04 19:43:46.721 | [GameAnalyzerEnd] SCV               total:  16 alive:  16 dead:   0 
+2022-11-04 19:43:46.722 | [GameAnalyzerEnd] BARRACKS          total:   1 alive:   1 dead:   0 
+2022-11-04 19:43:46.723 | [GameAnalyzerEnd] COMMANDCENTER     total:   1 alive:   1 dead:   0 
+2022-11-04 19:43:46.724 | [GameAnalyzerEnd] REFINERY          total:   1 alive:   1 dead:   0 
+2022-11-04 19:43:46.725 | [GameAnalyzerEnd] SUPPLYDEPOT       total:   1 alive:   1 dead:   0 
+2022-11-04 19:43:46.725 | [GameAnalyzerEnd] Enemy units:
+2022-11-04 19:43:46.726 | [GameAnalyzerEnd] Minerals max 220 Average 74
+2022-11-04 19:43:46.726 | [GameAnalyzerEnd] Vespene max 0 Average 0
+2022-11-04 19:43:46.727 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot Turtles(Terran): Defeat
+2022-11-04 19:43:47.856 | INFO     | sc2.protocol:__request:48 - Cannot receive: Game has already ended.
+2022-11-04 19:43:47.858 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 62034...
+2022-11-04 19:43:47.859 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

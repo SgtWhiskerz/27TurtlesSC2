@@ -1,0 +1,45 @@
+2022-11-15 11:31:44.977 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2022-11-15 11:31:44.980 | INFO     | sc2.controller:create_game:37 - Creating new game
+2022-11-15 11:31:44.981 | INFO     | sc2.controller:create_game:38 - Map:     RomanticideAIE
+2022-11-15 11:31:44.982 | INFO     | sc2.controller:create_game:39 - Players: Bot Turtles(Terran), Computer VeryHard(Random, RandomBuild)
+2022-11-15 11:31:44.985 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2022-11-15 11:31:56.931 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2022-11-15 11:31:56.933 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot Turtles(Terran)
+2022-11-15 11:31:57.572 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.10.88500
+2022-11-15 11:31:57.574 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2022-11-15 11:31:57.644 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.RomanticideLE from name: Romanticide AIE and hash: 3756032.
+2022-11-15 11:31:58.442 | [Start] My race: Terran
+2022-11-15 11:31:58.444 | [Start] Opponent race: Random
+2022-11-15 11:31:58.445 | [Start] OpponentId: None
+2022-11-15 11:31:58.701 | 00:00    7ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-11-15 11:31:58.769 | 00:01    8ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2022-11-15 11:32:00.273 | 00:14    6ms    0M    0G  13/ 15U [ActUnit] SCV from COMMANDCENTER at (41.5, 135.5)
+2022-11-15 11:32:01.965 | 00:26   10ms  100M    0G  14/ 15U [ActUnit] SCV from COMMANDCENTER at (41.5, 135.5)
+2022-11-15 11:32:03.539 | 00:37    7ms   20M    0G  15/ 23U [BuildGas] Building REFINERY to (34.5, 132.5)
+2022-11-15 11:32:03.848 | 00:39    8ms    0M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (41.5, 135.5)
+2022-11-15 11:32:04.300 | 00:43    8ms   35M    0G  16/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-11-15 11:32:04.318 | 00:43    8ms   40M    0G  16/ 23U [GameAnalyzer] Income advantage is now Even
+2022-11-15 11:32:05.339 | 00:51    8ms   95M    0G  16/ 23U [ActUnit] SCV from COMMANDCENTER at (41.5, 135.5)
+2022-11-15 11:32:06.890 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.ended (was Status.in_game)
+2022-11-15 11:32:06.891 | Result: Defeat
+2022-11-15 11:32:06.892 | Duration: 01:03
+2022-11-15 11:32:06.893 | Step time min: 6
+2022-11-15 11:32:06.894 | Step time avg: 8
+2022-11-15 11:32:06.894 | Step time max: 73
+2022-11-15 11:32:06.895 | [LostUnitsContents] My lost units minerals and gas: (0, 0)
+2022-11-15 11:32:06.896 | [LostUnitsContents] My lost units minerals by score: 0.0
+2022-11-15 11:32:06.896 | [LostUnitsContents] Enemy lost units minerals and gas: (0, 0)
+2022-11-15 11:32:06.897 | [LostUnitsContents] Enemy lost units minerals by score: 0.0
+2022-11-15 11:32:06.898 | [GameAnalyzerEnd] Own units:
+2022-11-15 11:32:06.899 | [GameAnalyzerEnd] SCV               total:  15 alive:  15 dead:   0 
+2022-11-15 11:32:06.899 | [GameAnalyzerEnd] BARRACKS          total:   1 alive:   1 dead:   0 
+2022-11-15 11:32:06.900 | [GameAnalyzerEnd] SUPPLYDEPOT       total:   1 alive:   1 dead:   0 
+2022-11-15 11:32:06.901 | [GameAnalyzerEnd] REFINERY          total:   1 alive:   1 dead:   0 
+2022-11-15 11:32:06.901 | [GameAnalyzerEnd] COMMANDCENTER     total:   1 alive:   1 dead:   0 
+2022-11-15 11:32:06.902 | [GameAnalyzerEnd] Enemy units:
+2022-11-15 11:32:06.903 | [GameAnalyzerEnd] Minerals max 235 Average 93
+2022-11-15 11:32:06.903 | [GameAnalyzerEnd] Vespene max 0 Average 0
+2022-11-15 11:32:06.905 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot Turtles(Terran): Defeat
+2022-11-15 11:32:07.943 | INFO     | sc2.protocol:__request:48 - Cannot receive: Game has already ended.
+2022-11-15 11:32:07.945 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 58361...
+2022-11-15 11:32:07.946 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

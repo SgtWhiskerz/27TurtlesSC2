@@ -1,0 +1,474 @@
+2022-10-25 23:01:03.041 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2022-10-25 23:01:03.043 | INFO     | sc2.controller:create_game:37 - Creating new game
+2022-10-25 23:01:03.045 | INFO     | sc2.controller:create_game:38 - Map:     StargazersAIE
+2022-10-25 23:01:03.046 | INFO     | sc2.controller:create_game:39 - Players: Bot Turtles(Terran), Computer VeryHard(Random, RandomBuild)
+2022-10-25 23:01:03.049 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2022-10-25 23:01:13.684 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2022-10-25 23:01:13.686 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot Turtles(Terran)
+2022-10-25 23:01:14.253 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.10.88500
+2022-10-25 23:01:14.254 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2022-10-25 23:01:14.349 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: StargazersAIE and hash: 3330616.
+2022-10-25 23:01:15.129 | [Start] My race: Terran
+2022-10-25 23:01:15.130 | [Start] Opponent race: Random
+2022-10-25 23:01:15.131 | [Start] OpponentId: None
+2022-10-25 23:01:15.343 | 00:00    8ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-25 23:01:15.436 | 00:01    7ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2022-10-25 23:01:16.429 | 00:09    6ms   85M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-25 23:01:16.447 | 00:09    7ms   85M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2022-10-25 23:01:17.055 | 00:14    7ms    5M    0G  13/ 15U [ActUnit] SCV from COMMANDCENTER at (160.5, 123.5)
+2022-10-25 23:01:18.494 | 00:22    7ms   95M    0G  14/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-25 23:01:18.516 | 00:22    8ms   95M    0G  14/ 15U [GameAnalyzer] Income advantage is now Even
+2022-10-25 23:01:19.206 | 00:26   15ms  105M    0G  14/ 15U [ActUnit] SCV from COMMANDCENTER at (160.5, 123.5)
+2022-10-25 23:01:21.051 | 00:39    7ms   60M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (160.5, 123.5)
+2022-10-25 23:01:22.203 | 00:48    6ms   20M    0G  16/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-25 23:01:22.224 | 00:48   10ms   25M    0G  16/ 23U [GameAnalyzer] Income advantage is now Even
+2022-10-25 23:01:22.548 | 00:51    6ms   10M    0G  16/ 23U [ActUnit] SCV from COMMANDCENTER at (160.5, 123.5)
+2022-10-25 23:01:23.137 | 00:56    6ms    0M    0G  17/ 23U [BuildGas] Building REFINERY to (167.5, 120.5)
+2022-10-25 23:01:24.046 | 01:03    8ms   40M    0G  17/ 23U [ActUnit] SCV from COMMANDCENTER at (160.5, 123.5)
+2022-10-25 23:01:25.684 | 01:13   20ms   30M    0G  18/ 23U [GameAnalyzer] Income advantage is now SlightAdvantage
+2022-10-25 23:01:25.933 | 01:14   20ms   35M    0G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2022-10-25 23:01:26.295 | 01:16   21ms    0M    0G  18/ 23U [ActUnit] SCV from COMMANDCENTER at (160.5, 123.5)
+2022-10-25 23:01:26.599 | 01:17   10ms   20M    0G  19/ 23U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -115
+2022-10-25 23:01:27.224 | 01:21   10ms   75M    0G  19/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-25 23:01:27.361 | 01:22   11ms   90M    0G  19/ 23U [GameAnalyzer] Income advantage is now Even
+2022-10-25 23:01:27.388 | 01:22   11ms   90M    4G  19/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-25 23:01:27.525 | 01:23   11ms  100M    4G  19/ 23U [GameAnalyzer] Income advantage is now Even
+2022-10-25 23:01:27.642 | 01:24   11ms  100M    8G  19/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-25 23:01:28.003 | 01:26   11ms  135M   12G  19/ 23U [GameAnalyzer] Income advantage is now Even
+2022-10-25 23:01:28.053 | 01:27   10ms  140M   12G  19/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-25 23:01:28.130 | 01:27   10ms  150M   12G  19/ 23U [GameAnalyzer] Income advantage is now Even
+2022-10-25 23:01:28.218 | 01:28   10ms    0M   12G  19/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-25 23:01:28.244 | 01:28   13ms    5M   16G  19/ 23U [GameAnalyzer] Income advantage is now Even
+2022-10-25 23:01:28.339 | 01:29   13ms    5M   16G  19/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-25 23:01:28.573 | 01:30   11ms   40M   20G  19/ 23U [GameAnalyzer] Income advantage is now Even
+2022-10-25 23:01:28.631 | 01:30   10ms   40M   20G  19/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-25 23:01:28.741 | 01:31   10ms   50M   24G  19/ 23U [GameAnalyzer] Income advantage is now Even
+2022-10-25 23:01:28.743 | 01:31   10ms    0M   24G  19/ 23U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:01:28.801 | 01:31   11ms    0M   24G  20/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-25 23:01:28.880 | 01:32   11ms   10M   24G  20/ 23U [GameAnalyzer] Income advantage is now Even
+2022-10-25 23:01:28.991 | 01:33   11ms   10M   28G  20/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-25 23:01:29.097 | 01:33   12ms   25M   28G  20/ 23U [GameAnalyzer] Income advantage is now Even
+2022-10-25 23:01:29.145 | 01:34   10ms   35M   32G  20/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-25 23:01:29.309 | 01:35   10ms   50M   32G  20/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:29.472 | 01:36   11ms   15M   36G  20/ 23U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:01:31.523 | 01:49   13ms   45M   72G  21/ 23U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2022-10-25 23:01:31.524 | 01:49   13ms   45M   72G  21/ 23U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2022-10-25 23:01:31.563 | 01:49   13ms    0M   72G  21/ 23U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:01:31.907 | 01:51   37ms   25M   76G  22/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:31.934 | 01:51   12ms   30M   80G  22/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:32.065 | 01:52   10ms   45M   80G  22/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:32.093 | 01:53   12ms   50M   80G  22/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:32.324 | 01:54   10ms   15M   84G  22/ 23U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:01:34.212 | 02:05   11ms   50M  116G  23/ 23U [BuildAddon] UnitTypeId.BARRACKSTECHLAB to (167.0, 114.0)
+2022-10-25 23:01:35.601 | 02:14   11ms   35M  115G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:35.635 | 02:14   12ms   45M  115G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:35.723 | 02:15   11ms   60M  115G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:35.755 | 02:15   14ms   60M  115G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:36.152 | 02:17   11ms    0M  123G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:36.189 | 02:17   12ms    5M  123G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:36.324 | 02:18   15ms    5M  123G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:36.421 | 02:18   13ms   25M  127G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:36.541 | 02:19   11ms   40M  127G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:36.646 | 02:20   14ms   40M  131G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:37.200 | 02:23   12ms   55M  135G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:37.265 | 02:23   12ms   75M  135G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:37.296 | 02:23   13ms  100M  135G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:37.375 | 02:23   11ms   15M  135G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:37.488 | 02:24   19ms   15M  139G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:37.522 | 02:24   13ms   15M  139G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:37.587 | 02:24   13ms   15M  139G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:37.588 | 02:24   13ms   15M  139G  23/ 23U [GameAnalyzer] Predicted army advantage is now OverwhelmingDisadvantage
+2022-10-25 23:01:37.616 | 02:25   16ms   15M  139G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:37.685 | 02:25   13ms   15M  139G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:37.745 | 02:25   12ms   20M  139G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:38.022 | 02:27   12ms   30M  143G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:38.303 | 02:28   14ms  150M  147G  23/ 23U [Tech] Started STIMPACK
+2022-10-25 23:01:38.369 | 02:28   12ms   60M   47G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:38.435 | 02:29   13ms   60M   47G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:38.624 | 02:30   11ms   75M   51G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:38.715 | 02:30   12ms  100M   51G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:38.751 | 02:31   13ms  100M   51G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:38.842 | 02:31   12ms  100M   51G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:38.965 | 02:32   13ms  120M   55G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:39.031 | 02:32   12ms  120M   55G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:39.191 | 02:33   12ms  135M   55G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:39.284 | 02:34   12ms  140M   55G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:39.409 | 02:34   12ms  145M   59G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:39.508 | 02:35   12ms  145M   59G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:39.535 | 02:35   14ms  145M   59G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:39.631 | 02:36   13ms  145M   63G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:39.759 | 02:36   12ms  165M   63G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:39.821 | 02:37   14ms  170M   63G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:39.851 | 02:37   14ms  120M   63G  22/ 23U [ActUnit] SCV from COMMANDCENTER at (160.5, 123.5)
+2022-10-25 23:01:39.853 | 02:37   14ms   70M   63G  22/ 23U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:01:39.919 | 02:37   13ms   70M   63G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:40.081 | 02:38   11ms  105M   67G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:40.172 | 02:39   11ms  115M   67G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:40.235 | 02:39   12ms  120M   67G  23/ 23U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:40.272 | 02:39   14ms  120M   67G  23/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:40.337 | 02:40   13ms   70M   71G  24/ 31U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:01:40.369 | 02:40   13ms   20M   71G  25/ 31U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:01:40.405 | 02:40   15ms   20M   71G  26/ 31U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:40.494 | 02:40   13ms   30M   71G  26/ 31U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:40.621 | 02:41   12ms   45M   75G  26/ 31U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:40.690 | 02:41   19ms   50M   75G  26/ 31U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:40.692 | 02:41   19ms    0M   75G  26/ 31U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:01:40.869 | 02:43   13ms    5M   79G  27/ 31U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:40.929 | 02:43   13ms   10M   79G  27/ 31U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:40.989 | 02:43   13ms   20M   79G  27/ 31U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:41.022 | 02:43   12ms   25M   79G  27/ 31U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:41.257 | 02:45   13ms   55M   83G  27/ 31U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:41.315 | 02:45   11ms   70M   87G  27/ 31U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:41.456 | 02:46   11ms   80M   87G  27/ 39U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:41.494 | 02:46   13ms   80M   87G  27/ 39U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:41.753 | 02:48   12ms  100M   91G  27/ 39U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:41.783 | 02:48   12ms  105M   91G  27/ 39U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:42.418 | 02:51   12ms    0M  103G  27/ 39U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:01:43.438 | 02:57   11ms  110M  119G  28/ 39U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2022-10-25 23:01:43.441 | 02:57   11ms   60M  119G  28/ 39U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:01:43.480 | 02:58   16ms   10M  119G  29/ 39U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:01:43.715 | 02:59   17ms   20M  123G  30/ 39U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:01:43.819 | 02:59   12ms   20M  123G  31/ 39U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:43.851 | 03:00   14ms   20M  123G  31/ 39U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:44.120 | 03:01   12ms    0M  127G  31/ 39U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:01:44.509 | 03:03   13ms   30M  135G  32/ 39U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:44.539 | 03:03   14ms   35M  135G  32/ 39U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:45.352 | 03:07   11ms  120M  147G  32/ 39U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:45.390 | 03:08   14ms  130M  147G  32/ 39U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:45.758 | 03:09   14ms  100M  151G  32/ 39U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:01:46.027 | 03:11   14ms   25M  155G  33/ 39U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:46.057 | 03:11   15ms   30M  155G  33/ 39U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:46.284 | 03:12   12ms   50M  159G  33/ 39U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:46.319 | 03:12   14ms   60M  159G  33/ 39U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:46.383 | 03:13   12ms   85M  159G  33/ 39U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:46.419 | 03:13   13ms   90M  159G  33/ 39U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:46.834 | 03:15   13ms   20M  167G  33/ 39U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2022-10-25 23:01:46.872 | 03:15   13ms   25M  167G  33/ 39U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2022-10-25 23:01:47.156 | 03:17   12ms   45M  171G  33/ 47U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:47.192 | 03:17   14ms   45M  171G  33/ 47U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:47.224 | 03:17   16ms    5M  171G  33/ 47U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:01:47.420 | 03:18   15ms   65M  175G  34/ 47U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:01:47.458 | 03:19   14ms   15M  175G  35/ 47U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:01:47.715 | 03:20   14ms   10M  179G  36/ 47U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:01:48.995 | 03:27   12ms   85M  199G  37/ 47U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:01:50.454 | 03:35   13ms  190M  223G  38/ 55U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:01:50.649 | 03:36   12ms  155M  223G  39/ 55U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:01:50.713 | 03:36   14ms  155M  223G  40/ 55U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2022-10-25 23:01:50.716 | 03:36   14ms  105M  223G  40/ 55U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:01:51.282 | 03:40   12ms    5M  235G  41/ 55U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:01:51.704 | 03:42   12ms   70M  239G  42/ 55U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:51.739 | 03:42   16ms   75M  239G  42/ 55U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:52.299 | 03:45   13ms   70M  247G  42/ 55U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:01:53.760 | 03:53   13ms  225M  271G  43/ 55U [GameAnalyzer] Known army advantage is now OverwhelmingAdvantage
+2022-10-25 23:01:53.763 | 03:53   13ms  175M  271G  43/ 55U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:01:53.957 | 03:54   12ms  140M  271G  44/ 55U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:01:53.989 | 03:54   15ms   90M  275G  45/ 55U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:01:54.543 | 03:57   13ms  115M  283G  46/ 55U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:01:55.595 | 04:03   15ms  155M  295G  47/ 63U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:01:56.321 | 04:06   14ms  230M  307G  48/ 63U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:56.355 | 04:06   15ms  240M  307G  48/ 63U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:56.677 | 04:08   16ms  290M  311G  48/ 63U [Tech] Started SHIELDWALL
+2022-10-25 23:01:57.227 | 04:11   18ms  190M  219G  48/ 63U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:01:57.445 | 04:12   15ms   50M  223G  49/ 63U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:01:57.478 | 04:12   15ms    0M  223G  50/ 63U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:01:58.037 | 04:15   14ms   70M  231G  51/ 63U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:58.080 | 04:15   19ms   75M  231G  51/ 63U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:58.082 | 04:15   19ms   75M  231G  51/ 63U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2022-10-25 23:01:58.083 | 04:15   19ms   25M  231G  51/ 63U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:01:58.250 | 04:16   13ms   35M  231G  52/ 63U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:58.319 | 04:16   14ms   45M  235G  52/ 63U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:58.961 | 04:20   16ms   95M  243G  52/ 63U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:01:59.001 | 04:20   16ms  100M  243G  52/ 63U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:01:59.220 | 04:21   14ms   85M  247G  52/ 63U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:02:00.238 | 04:26   15ms  175M  259G  53/ 63U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:00.350 | 04:26   17ms  185M  259G  53/ 63U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:02:00.927 | 04:29   13ms  195M  267G  53/ 63U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:02:01.076 | 04:30   15ms  200M  267G  54/ 63U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:01.162 | 04:30   14ms  205M  271G  54/ 63U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:02:01.165 | 04:30   14ms  155M  271G  54/ 63U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:02:01.207 | 04:30   17ms  120M  271G  55/ 63U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:02:01.367 | 04:31   15ms  125M  271G  56/ 63U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:01.409 | 04:31   16ms  135M  271G  56/ 63U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:02:01.823 | 04:33   14ms  110M  279G  56/ 63U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:02:02.156 | 04:35   15ms   60M  283G  57/ 63U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:02.193 | 04:35   15ms   75M  283G  57/ 63U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:02:02.342 | 04:36   16ms   80M  287G  57/ 63U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:02.426 | 04:36   15ms   85M  287G  57/ 63U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:02:03.315 | 04:40   13ms   20M  299G  57/ 71U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:02:04.437 | 04:46   14ms  190M  311G  58/ 71U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:04.474 | 04:46   16ms  195M  311G  58/ 71U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:02:04.658 | 04:47   15ms  235M  315G  58/ 71U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:04.659 | 04:47   15ms  235M  315G  58/ 71U [GameAnalyzer] Predicted army advantage is now Even
+2022-10-25 23:02:04.661 | 04:47   15ms  185M  315G  58/ 71U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:02:04.729 | 04:47   13ms  195M  315G  59/ 71U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:02:04.875 | 04:48   14ms  155M  319G  59/ 71U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:02:04.915 | 04:48   17ms  105M  319G  60/ 71U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:02:05.516 | 04:51   14ms  100M  327G  61/ 71U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:02:06.389 | 04:55   14ms  190M  339G  62/ 71U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:06.461 | 04:56   14ms  200M  339G  62/ 71U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:02:06.679 | 04:57   15ms  210M  343G  62/ 71U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:06.717 | 04:57   16ms  215M  343G  62/ 71U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-25 23:02:06.979 | 04:58   16ms  185M  347G  62/ 71U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:02:08.122 | 05:03   16ms  285M  359G  63/ 79U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:08.369 | 05:05   16ms  260M  363G  63/ 79U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:02:08.654 | 05:06   21ms  225M  367G  64/ 79U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:02:08.696 | 05:06   23ms  225M  367G  65/ 79U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2022-10-25 23:02:08.699 | 05:06   23ms   75M  367G  65/ 79U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:02:09.376 | 05:09   18ms  100M  375G  66/ 79U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:02:11.064 | 05:16   17ms  160M  395G  67/ 79U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:02:12.526 | 05:22   19ms  205M  411G  68/ 79U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:02:12.791 | 05:23   16ms  165M  415G  69/ 79U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:02:12.834 | 05:24   21ms  115M  415G  70/ 79U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:02:13.542 | 05:27   17ms  125M  423G  71/ 79U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:02:15.271 | 05:34   22ms  190M  443G  72/ 87U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:02:16.720 | 05:40   19ms  145M  459G  73/ 87U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:02:16.967 | 05:41   17ms  105M  463G  74/ 87U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:02:17.013 | 05:41   21ms   55M  463G  75/ 87U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:02:17.899 | 05:45   21ms   65M  471G  76/ 87U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:02:19.505 | 05:52   19ms  130M  491G  77/ 87U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:02:20.976 | 05:58   18ms  185M  511G  78/ 87U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:02:21.226 | 05:59   19ms  140M  511G  79/ 87U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:02:21.273 | 05:59   19ms  100M  511G  80/ 87U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:02:21.954 | 06:02   18ms    5M  523G  81/ 95U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:02:23.637 | 06:10   20ms   55M  539G  82/ 95U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:02:23.760 | 06:10   22ms   55M  543G  83/ 95U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:23.807 | 06:10   21ms   60M  543G  83/ 95U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:23.970 | 06:11   22ms   75M  543G  83/ 95U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:24.055 | 06:11   20ms   90M  547G  83/ 95U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:24.182 | 06:12   19ms   90M  547G  83/ 95U [GameAnalyzer] Predicted army advantage is now Even
+2022-10-25 23:02:25.000 | 06:15   30ms  140M  555G  83/ 95U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:25.041 | 06:15   20ms  145M  555G  83/ 95U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:25.161 | 06:16   20ms  155M  559G  83/ 95U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2022-10-25 23:02:25.164 | 06:16   20ms  105M  559G  83/ 95U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:02:25.208 | 06:16   22ms  105M  559G  84/ 95U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:25.248 | 06:16   24ms  110M  559G  84/ 95U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:25.417 | 06:17   19ms  115M  559G  84/ 95U [GameAnalyzer] Predicted army advantage is now Even
+2022-10-25 23:02:25.419 | 06:17   19ms   65M  559G  84/ 95U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:02:25.460 | 06:17   23ms   70M  563G  85/ 95U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2022-10-25 23:02:25.463 | 06:17   23ms   20M  563G  85/ 95U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:02:25.507 | 06:17   24ms   20M  563G  86/ 95U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:25.547 | 06:18   24ms   25M  563G  86/ 95U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:25.708 | 06:18   20ms   35M  563G  86/ 95U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:25.783 | 06:19   19ms   45M  567G  86/ 95U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:26.021 | 06:20   19ms   60M  567G  86/ 95U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:26.141 | 06:20   20ms   75M  571G  86/ 95U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:26.145 | 06:20   20ms   25M  571G  86/ 95U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:02:26.767 | 06:23   24ms   60M  575G  87/ 95U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:26.860 | 06:23   27ms   70M  579G  87/ 95U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:27.799 | 06:27   19ms   85M  587G  87/103U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:02:28.429 | 06:30   20ms  120M  595G  88/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:28.470 | 06:30   21ms  125M  595G  88/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:29.345 | 06:34   27ms  145M  607G  88/103U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:02:29.589 | 06:35   20ms    0M  611G  89/103U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:02:29.755 | 06:36   23ms   10M  611G  90/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:29.793 | 06:36   21ms   15M  611G  90/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:30.357 | 06:38   22ms    0M  619G  90/103U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:02:30.621 | 06:39   22ms   10M  623G  91/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:30.791 | 06:40   20ms   20M  623G  91/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:30.876 | 06:40   21ms   25M  623G  91/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:31.040 | 06:41   19ms   40M  627G  91/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:31.171 | 06:42   20ms   45M  627G  91/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:31.214 | 06:42   22ms   45M  627G  91/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:31.255 | 06:42   23ms    0M  627G  91/103U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:02:31.420 | 06:43   19ms    0M  631G  92/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:31.462 | 06:43   22ms    5M  631G  92/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:31.586 | 06:43   19ms   10M  631G  92/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:31.697 | 06:44   21ms   15M  635G  92/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:31.860 | 06:45   19ms   25M  635G  92/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:31.901 | 06:45   22ms   35M  635G  92/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:32.064 | 06:45   19ms   40M  639G  92/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:32.148 | 06:46   22ms   50M  639G  92/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:32.150 | 06:46   22ms    0M  639G  92/103U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:02:32.327 | 06:46   21ms    5M  639G  93/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:32.372 | 06:47   21ms    5M  643G  93/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:32.976 | 06:49   20ms   45M  647G  93/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:33.025 | 06:49   21ms   55M  647G  93/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:33.161 | 06:50   19ms   60M  651G  93/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:33.253 | 06:50   22ms   65M  651G  93/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:33.534 | 06:51   21ms   80M  655G  93/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:33.576 | 06:51   21ms   85M  655G  93/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:33.622 | 06:52   24ms   35M  655G  93/103U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:02:33.670 | 06:52   25ms   45M  655G  94/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:33.760 | 06:52   22ms   45M  655G  94/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:33.894 | 06:53   23ms    0M  659G  94/103U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:02:34.526 | 06:55   21ms   30M  667G  95/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:34.610 | 06:56   19ms   40M  667G  95/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:34.704 | 06:56   23ms    0M  667G  95/103U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:02:34.964 | 06:57   21ms   10M  671G  96/103U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:35.047 | 06:58   22ms   10M  671G  96/103U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:35.675 | 07:00   23ms    0M  679G  96/111U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:02:35.850 | 07:01   20ms   10M  679G  97/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:35.940 | 07:01   22ms   20M  679G  97/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:36.155 | 07:02   20ms   25M  683G  97/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:36.240 | 07:03   21ms   30M  683G  97/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:36.505 | 07:04   20ms    0M  687G  97/111U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:02:36.765 | 07:05   27ms   10M  691G  98/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:36.808 | 07:05   22ms   15M  691G  98/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:36.975 | 07:06   22ms   20M  691G  98/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:37.016 | 07:06   23ms   20M  695G  98/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:37.338 | 07:07   22ms   40M  695G  98/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:37.472 | 07:07   22ms   50M  699G  98/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:37.681 | 07:08   29ms   50M  699G  98/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:37.753 | 07:08   35ms   50M  699G  98/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:38.202 | 07:10   21ms   30M  703G  98/111U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:02:38.301 | 07:10   23ms   30M  703G  99/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:38.344 | 07:10   23ms   30M  703G  99/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:38.634 | 07:11   20ms   45M  707G  99/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:38.691 | 07:11   24ms   50M  707G  99/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:38.694 | 07:11   24ms    0M  707G  99/111U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:02:39.453 | 07:14   21ms   40M  715G 100/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:39.554 | 07:14   23ms   40M  715G 100/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:39.823 | 07:15   23ms   45M  719G 100/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:39.925 | 07:16   22ms   50M  719G 100/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:39.928 | 07:16   22ms    0M  719G 100/111U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:02:40.127 | 07:16   23ms   20M  723G 101/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:40.221 | 07:17   20ms   20M  723G 101/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:40.368 | 07:17   23ms   25M  723G 101/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:40.554 | 07:18   23ms   35M  727G 101/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:40.652 | 07:18   21ms   40M  727G 101/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:40.701 | 07:18   26ms   50M  727G 101/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:40.705 | 07:18   26ms    0M  727G 101/111U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:02:40.941 | 07:19   21ms    5M  731G 102/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:41.031 | 07:20   21ms    5M  731G 102/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:41.499 | 07:21   22ms   35M  735G 102/111U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2022-10-25 23:02:41.601 | 07:22   24ms   35M  735G 102/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:41.651 | 07:22   23ms   35M  739G 102/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:41.701 | 07:22   24ms   35M  739G 102/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:41.753 | 07:22   25ms   40M  739G 102/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:41.849 | 07:23   22ms    5M  739G 102/111U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:02:42.123 | 07:24   22ms   15M  743G 103/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:42.356 | 07:25   24ms   30M  743G 103/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:42.493 | 07:25   20ms   35M  747G 103/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:42.628 | 07:26   22ms   45M  747G 103/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:42.781 | 07:26   22ms   45M  747G 103/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:42.880 | 07:27   23ms   55M  751G 103/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:43.024 | 07:27   20ms   60M  751G 103/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:43.075 | 07:27   22ms   10M  751G 103/111U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:02:43.123 | 07:28   24ms   20M  751G 104/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:43.266 | 07:28   24ms   20M  755G 104/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:43.412 | 07:29   22ms   25M  755G 104/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:43.584 | 07:29   23ms   35M  755G 104/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:43.768 | 07:30   20ms   50M  759G 104/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:43.772 | 07:30   20ms    0M  759G 104/111U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:02:43.815 | 07:30   24ms    0M  759G 105/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:43.865 | 07:30   24ms    0M  759G 105/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:43.911 | 07:30   23ms    0M  759G 105/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:44.057 | 07:31   23ms   10M  763G 105/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:44.219 | 07:31   21ms   15M  763G 105/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:44.458 | 07:32   24ms   25M  767G 105/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:44.508 | 07:33   22ms   30M  767G 105/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:44.556 | 07:33   23ms   30M  767G 105/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:44.674 | 07:33   24ms   30M  767G 105/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:44.872 | 07:34   23ms   45M  771G 105/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:44.966 | 07:34   21ms   50M  771G 105/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:44.969 | 07:34   21ms    0M  771G 105/111U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:02:45.012 | 07:34   24ms    0M  771G 106/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:45.851 | 07:38   22ms    0M  779G 106/111U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:02:46.002 | 07:38   22ms    0M  779G 107/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:46.135 | 07:39   22ms   15M  783G 107/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:46.235 | 07:39   22ms   15M  783G 107/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:46.354 | 07:39   32ms   15M  783G 107/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:46.550 | 07:40   24ms   30M  787G 107/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:46.648 | 07:40   24ms   40M  787G 107/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:46.843 | 07:41   22ms   40M  791G 107/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:46.939 | 07:41   23ms   50M  791G 107/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:46.943 | 07:41   23ms    0M  791G 107/111U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:02:47.944 | 07:45   24ms   50M  799G 108/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:47.948 | 07:45   24ms    0M  799G 108/111U [TerranUnit] MARINE from BARRACKS at (159.5, 113.5)
+2022-10-25 23:02:47.989 | 07:45   25ms    0M  799G 109/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:48.131 | 07:46   21ms    0M  803G 109/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:48.178 | 07:46   23ms    0M  803G 109/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:48.232 | 07:46   25ms    5M  803G 109/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:48.304 | 07:46   26ms   10M  803G 109/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:48.891 | 07:49   21ms   40M  811G 109/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:48.938 | 07:49   27ms   45M  811G 109/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:49.034 | 07:49   21ms    0M  811G 109/111U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:02:49.921 | 07:53   22ms   40M  819G 110/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:49.967 | 07:53   24ms   45M  819G 110/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:50.025 | 07:53   23ms   45M  823G 110/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:50.074 | 07:53   24ms   50M  823G 110/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:50.077 | 07:53   24ms    0M  823G 110/111U [TerranUnit] MARINE from BARRACKS at (164.5, 114.5)
+2022-10-25 23:02:50.289 | 07:54   24ms   10M  823G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:50.343 | 07:54   25ms   15M  823G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:51.212 | 07:57   22ms   50M  831G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:51.260 | 07:57   25ms   50M  835G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:51.460 | 07:58   24ms   65M  835G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:51.552 | 07:58   21ms   70M  835G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:51.649 | 07:59   23ms   75M  839G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:51.703 | 07:59   24ms   80M  839G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:51.760 | 07:59   26ms   80M  839G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:51.901 | 08:00   24ms   90M  839G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:52.010 | 08:00   24ms   95M  839G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:52.059 | 08:00   25ms   95M  839G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:52.172 | 08:01   24ms  100M  843G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:52.226 | 08:01   26ms    5M  843G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:52.745 | 08:03   24ms   25M  847G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:52.845 | 08:03   24ms   35M  847G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:53.076 | 08:03   52ms   35M  851G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:53.128 | 08:04   24ms   35M  851G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:53.359 | 08:04   29ms   45M  851G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:53.427 | 08:05   45ms   55M  851G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:53.483 | 08:05   25ms   55M  855G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:53.540 | 08:05   27ms   60M  855G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:53.692 | 08:05   22ms   65M  855G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:53.852 | 08:06   24ms   70M  855G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:54.051 | 08:07   26ms   80M  859G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:54.198 | 08:07   23ms   90M  859G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:54.456 | 08:08   23ms   95M  863G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:54.554 | 08:08   23ms  100M  863G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:54.705 | 08:09   23ms   10M  863G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:54.904 | 08:10   22ms   25M  867G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:54.959 | 08:10   26ms   25M  867G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:55.006 | 08:10   24ms   25M  867G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:55.109 | 08:10   24ms   25M  867G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:55.225 | 08:11   23ms   35M  871G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:55.384 | 08:11   22ms   35M  871G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:55.532 | 08:12   22ms   45M  871G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:55.688 | 08:12   24ms   50M  875G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:55.937 | 08:13   22ms   60M  875G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:55.998 | 08:13   23ms   65M  875G 111/111U [GameAnalyzer] Income advantage is now OverwhelmingDisadvantage
+2022-10-25 23:02:56.104 | 08:14   23ms   70M  879G 111/111U [GameAnalyzer] Income advantage is now ClearDisadvantage
+2022-10-25 23:02:56.837 | 08:16   27ms  105M  883G 111/111U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2022-10-25 23:02:59.849 | 08:26   29ms  220M  911G 111/111U [GameAnalyzer] Predicted army advantage is now Even
+2022-10-25 23:03:00.388 | 08:28   25ms  180M  915G 111/119U [TerranUnit] MARINE from BARRACKS at (150.5, 125.5)
+2022-10-25 23:03:00.437 | 08:28   23ms  135M  919G 112/119U [TerranUnit] MARINE from BARRACKS at (157.5, 116.5)
+2022-10-25 23:03:00.591 | 08:29   22ms    0M  919G 113/119U [TerranUnit] MARINE from BARRACKS at (152.5, 122.5)
+2022-10-25 23:03:00.876 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.ended (was Status.in_game)
+2022-10-25 23:03:00.878 | Result: Defeat
+2022-10-25 23:03:00.879 | Duration: 08:30
+2022-10-25 23:03:00.880 | Step time min: 5
+2022-10-25 23:03:00.881 | Step time avg: 16
+2022-10-25 23:03:00.882 | Step time max: 124
+2022-10-25 23:03:00.883 | [LostUnitsContents] My lost units minerals and gas: (50, 0)
+2022-10-25 23:03:00.883 | [LostUnitsContents] My lost units minerals by score: 50.0
+2022-10-25 23:03:00.885 | [LostUnitsContents] Enemy lost units minerals and gas: (0, 0)
+2022-10-25 23:03:00.886 | [LostUnitsContents] Enemy lost units minerals by score: 0.0
+2022-10-25 23:03:00.887 | [GameAnalyzerEnd] Own units:
+2022-10-25 23:03:00.887 | [GameAnalyzerEnd] MARINE            total:  92 alive:  92 dead:   0 
+2022-10-25 23:03:00.888 | [GameAnalyzerEnd] SCV               total:  19 alive:  18 dead:   1 
+2022-10-25 23:03:00.889 | [GameAnalyzerEnd] SUPPLYDEPOT       total:  14 alive:  14 dead:   0 
+2022-10-25 23:03:00.889 | [GameAnalyzerEnd] BARRACKS          total:   5 alive:   5 dead:   0 
+2022-10-25 23:03:00.890 | [GameAnalyzerEnd] ORBITALCOMMAND    total:   1 alive:   1 dead:   0 
+2022-10-25 23:03:00.891 | [GameAnalyzerEnd] TECHLAB           total:   1 alive:   1 dead:   0 
+2022-10-25 23:03:00.892 | [GameAnalyzerEnd] REFINERY          total:   1 alive:   1 dead:   0 
+2022-10-25 23:03:00.894 | [GameAnalyzerEnd] Enemy units:
+2022-10-25 23:03:00.895 | [GameAnalyzerEnd] PROBE             total:  53 alive:  53 dead:   0 
+2022-10-25 23:03:00.896 | [GameAnalyzerEnd] PYLON             total:   9 alive:   9 dead:   0 
+2022-10-25 23:03:00.896 | [GameAnalyzerEnd] ASSIMILATOR       total:   4 alive:   4 dead:   0 
+2022-10-25 23:03:00.897 | [GameAnalyzerEnd] WARPGATE          total:   4 alive:   4 dead:   0 
+2022-10-25 23:03:00.898 | [GameAnalyzerEnd] STALKER           total:   3 alive:   3 dead:   0 
+2022-10-25 23:03:00.899 | [GameAnalyzerEnd] NEXUS             total:   2 alive:   2 dead:   0 
+2022-10-25 23:03:00.900 | [GameAnalyzerEnd] GATEWAY           total:   2 alive:   2 dead:   0 
+2022-10-25 23:03:00.901 | [GameAnalyzerEnd] ZEALOT            total:   2 alive:   2 dead:   0 
+2022-10-25 23:03:00.901 | [GameAnalyzerEnd] FORGE             total:   2 alive:   2 dead:   0 
+2022-10-25 23:03:00.902 | [GameAnalyzerEnd] PHOTONCANNON      total:   2 alive:   2 dead:   0 
+2022-10-25 23:03:00.903 | [GameAnalyzerEnd] CYBERNETICSCORE   total:   1 alive:   1 dead:   0 
+2022-10-25 23:03:00.903 | [GameAnalyzerEnd] ROBOTICSFACILITY  total:   1 alive:   1 dead:   0 
+2022-10-25 23:03:00.904 | [GameAnalyzerEnd] TWILIGHTCOUNCIL   total:   1 alive:   1 dead:   0 
+2022-10-25 23:03:00.905 | [GameAnalyzerEnd] TEMPLARARCHIVE    total:   1 alive:   1 dead:   0 
+2022-10-25 23:03:00.906 | [GameAnalyzerEnd] Minerals max 290 Average 88
+2022-10-25 23:03:00.906 | [GameAnalyzerEnd] Vespene max 919 Average 335
+2022-10-25 23:03:00.907 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot Turtles(Terran): Defeat
+2022-10-25 23:03:01.978 | INFO     | sc2.protocol:__request:48 - Cannot receive: Game has already ended.
+2022-10-25 23:03:01.979 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 61721...
+2022-10-25 23:03:01.981 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

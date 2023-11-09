@@ -1,0 +1,108 @@
+2023-09-07 10:41:57.389 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2023-09-07 10:41:57.392 | INFO     | sc2.controller:create_game:37 - Creating new game
+2023-09-07 10:41:57.393 | INFO     | sc2.controller:create_game:38 - Map:     RoyalBloodAIE
+2023-09-07 10:41:57.395 | INFO     | sc2.controller:create_game:39 - Players: Bot Turtles(Terran), Computer VeryHard(Random, RandomBuild)
+2023-09-07 10:41:57.397 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2023-09-07 10:42:13.089 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2023-09-07 10:42:13.091 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot Turtles(Terran)
+2023-09-07 10:42:13.771 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.11.90870
+2023-09-07 10:42:13.773 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2023-09-07 10:42:13.852 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: Royal BloodAIE and hash: 3249828.
+2023-09-07 10:42:14.483 | [Start] My race: Terran
+2023-09-07 10:42:14.484 | [Start] Opponent race: Random
+2023-09-07 10:42:14.485 | [Start] OpponentId: None
+2023-09-07 10:42:14.689 | 00:00    7ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:14.765 | 00:01    7ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:16.141 | 00:14    6ms    5M    0G  13/ 15U [ActUnit] SCV from COMMANDCENTER at (141.5, 122.5)
+2023-09-07 10:42:17.509 | 00:26    8ms  105M    0G  14/ 15U [ActUnit] SCV from COMMANDCENTER at (141.5, 122.5)
+2023-09-07 10:42:18.629 | 00:36   24ms    0M    0G  15/ 23U [BuildGas] Building REFINERY to (148.5, 119.5)
+2023-09-07 10:42:18.751 | 00:37    6ms   15M    0G  15/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:18.774 | 00:37    9ms   20M    0G  15/ 23U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:19.152 | 00:40    8ms    0M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (141.5, 122.5)
+2023-09-07 10:42:19.280 | 00:41    8ms   15M    0G  16/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:19.303 | 00:42    8ms   15M    0G  16/ 23U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:20.181 | 00:49    6ms  110M    0G  16/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:20.199 | 00:49    8ms  115M    0G  16/ 23U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:20.277 | 00:50    8ms  120M    0G  16/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:20.325 | 00:50   33ms  120M    0G  16/ 23U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:20.579 | 00:53    7ms   95M    0G  16/ 23U [ActUnit] SCV from COMMANDCENTER at (141.5, 122.5)
+2023-09-07 10:42:21.937 | 01:05    6ms  200M    8G  17/ 23U [ActUnit] SCV from COMMANDCENTER at (141.5, 122.5)
+2023-09-07 10:42:22.961 | 01:11   25ms  280M   24G  18/ 23U [GameAnalyzer] Income advantage is now SlightAdvantage
+2023-09-07 10:42:23.105 | 01:12   25ms  290M   24G  18/ 23U [GameAnalyzer] Income advantage is now SmallAdvantage
+2023-09-07 10:42:23.162 | 01:12   22ms  290M   24G  18/ 23U [GameAnalyzer] Income advantage is now SlightAdvantage
+2023-09-07 10:42:23.212 | 01:12   22ms  290M   24G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:23.373 | 01:13   22ms  295M   28G  18/ 23U [GameAnalyzer] Income advantage is now SlightAdvantage
+2023-09-07 10:42:23.531 | 01:13   21ms  300M   28G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:23.696 | 01:14   22ms  305M   32G  18/ 23U [GameAnalyzer] Income advantage is now SlightAdvantage
+2023-09-07 10:42:23.757 | 01:14   28ms  305M   32G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:24.617 | 01:17   26ms  295M   36G  18/ 23U [ActUnit] SCV from COMMANDCENTER at (141.5, 122.5)
+2023-09-07 10:42:24.637 | 01:17   13ms  295M   40G  19/ 23U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -130
+2023-09-07 10:42:24.982 | 01:19   17ms  315M   44G  19/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:25.026 | 01:19   18ms  320M   44G  19/ 23U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:25.295 | 01:21   11ms  345M   48G  19/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:25.368 | 01:22   11ms  365M   52G  19/ 23U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:25.394 | 01:22   11ms  165M    2G  19/ 23U [TerranUnit] REAPER from BARRACKS at (141.5, 113.5)
+2023-09-07 10:42:25.505 | 01:23   11ms  215M    2G  20/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:25.529 | 01:23   13ms  215M    2G  20/ 23U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:26.126 | 01:26   11ms  260M   14G  20/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:26.184 | 01:26   12ms  275M   14G  20/ 23U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:26.721 | 01:30   11ms  150M   22G  20/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:26.754 | 01:30   12ms  155M   22G  20/ 23U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:26.929 | 01:31   10ms  175M   26G  20/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:26.981 | 01:31   11ms  185M   26G  20/ 23U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:27.037 | 01:32   12ms  185M   30G  20/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2023-09-07 10:42:29.474 | 01:48   11ms  400M   74G  20/ 23U [Expand] Expanding to (115.5, 128.5)
+2023-09-07 10:42:30.351 | 01:54   11ms   85M   90G  20/ 31U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2023-09-07 10:42:30.352 | 01:54   11ms   85M   90G  20/ 31U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2023-09-07 10:42:30.353 | 01:54   11ms   35M   90G  20/ 31U [ActUnit] SCV from COMMANDCENTER at (141.5, 122.5)
+2023-09-07 10:42:30.595 | 01:55   14ms    5M   90G  21/ 31U [TerranUnit] MARINE from BARRACKS at (141.5, 113.5)
+2023-09-07 10:42:30.652 | 01:55   15ms    5M   94G  22/ 31U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:30.715 | 01:56   13ms   10M   94G  22/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:30.913 | 01:57   13ms   35M   98G  22/ 31U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:31.502 | 02:00   14ms    0M  106G  22/ 31U [BuildGas] Building REFINERY to (137.5, 129.5)
+2023-09-07 10:42:31.625 | 02:01   14ms   15M  110G  22/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:31.773 | 02:02   13ms   30M  110G  22/ 31U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:31.849 | 02:02   15ms   35M  110G  22/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:31.881 | 02:03   15ms   35M  110G  22/ 31U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:31.939 | 02:03   15ms   60M  114G  22/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:31.997 | 02:03   14ms   65M  114G  22/ 31U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:32.135 | 02:04   14ms   80M  118G  22/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:32.222 | 02:05   13ms   90M  118G  22/ 31U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:32.373 | 02:05   15ms   90M  118G  22/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:32.434 | 02:05   14ms  100M  118G  22/ 31U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:32.467 | 02:06   17ms  100M  122G  22/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:32.566 | 02:06   16ms   60M  122G  22/ 31U [ActUnit] SCV from COMMANDCENTER at (141.5, 122.5)
+2023-09-07 10:42:32.628 | 02:06   14ms   70M  122G  23/ 31U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:32.715 | 02:07   13ms   80M  126G  23/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:32.746 | 02:07   17ms   80M  126G  23/ 31U [GameAnalyzer] Income advantage is now Even
+2023-09-07 10:42:33.099 | 02:09   15ms  125M  130G  23/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2023-09-07 10:42:33.114 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.ended (was Status.in_game)
+2023-09-07 10:42:33.116 | Result: Defeat
+2023-09-07 10:42:33.116 | Duration: 02:09
+2023-09-07 10:42:33.117 | Step time min: 6
+2023-09-07 10:42:33.117 | Step time avg: 10
+2023-09-07 10:42:33.118 | Step time max: 128
+2023-09-07 10:42:33.119 | [LostUnitsContents] My lost units minerals and gas: (0, 0)
+2023-09-07 10:42:33.120 | [LostUnitsContents] My lost units minerals by score: 0.0
+2023-09-07 10:42:33.120 | [LostUnitsContents] Enemy lost units minerals and gas: (50, 0)
+2023-09-07 10:42:33.121 | [LostUnitsContents] Enemy lost units minerals by score: 50.0
+2023-09-07 10:42:33.122 | [GameAnalyzerEnd] Own units:
+2023-09-07 10:42:33.122 | [GameAnalyzerEnd] SCV               total:  19 alive:  19 dead:   0 
+2023-09-07 10:42:33.123 | [GameAnalyzerEnd] SUPPLYDEPOT       total:   2 alive:   2 dead:   0 
+2023-09-07 10:42:33.124 | [GameAnalyzerEnd] COMMANDCENTER     total:   1 alive:   1 dead:   0 
+2023-09-07 10:42:33.125 | [GameAnalyzerEnd] REFINERY          total:   1 alive:   1 dead:   0 
+2023-09-07 10:42:33.127 | [GameAnalyzerEnd] BARRACKS          total:   1 alive:   1 dead:   0 
+2023-09-07 10:42:33.128 | [GameAnalyzerEnd] MULE              total:   1 alive:   1 dead:   0 
+2023-09-07 10:42:33.129 | [GameAnalyzerEnd] ORBITALCOMMAND    total:   1 alive:   1 dead:   0 
+2023-09-07 10:42:33.130 | [GameAnalyzerEnd] REAPER            total:   1 alive:   1 dead:   0 
+2023-09-07 10:42:33.131 | [GameAnalyzerEnd] Enemy units:
+2023-09-07 10:42:33.131 | [GameAnalyzerEnd] SCV               total:  19 alive:  18 dead:   1 
+2023-09-07 10:42:33.132 | [GameAnalyzerEnd] COMMANDCENTER     total:   2 alive:   2 dead:   0 
+2023-09-07 10:42:33.133 | [GameAnalyzerEnd] BARRACKS          total:   1 alive:   1 dead:   0 
+2023-09-07 10:42:33.133 | [GameAnalyzerEnd] SUPPLYDEPOT       total:   1 alive:   1 dead:   0 
+2023-09-07 10:42:33.134 | [GameAnalyzerEnd] Minerals max 395 Average 146
+2023-09-07 10:42:33.134 | [GameAnalyzerEnd] Vespene max 130 Average 28
+2023-09-07 10:42:33.135 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot Turtles(Terran): Defeat
+2023-09-07 10:42:34.262 | INFO     | sc2.protocol:__request:48 - Cannot receive: Game has already ended.
+2023-09-07 10:42:34.264 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 23896...
+2023-09-07 10:42:34.266 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

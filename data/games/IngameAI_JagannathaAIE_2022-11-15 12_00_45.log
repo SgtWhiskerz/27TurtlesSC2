@@ -1,0 +1,46 @@
+2022-11-15 12:00:52.510 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2022-11-15 12:00:52.512 | INFO     | sc2.controller:create_game:37 - Creating new game
+2022-11-15 12:00:52.513 | INFO     | sc2.controller:create_game:38 - Map:     JagannathaAIE
+2022-11-15 12:00:52.514 | INFO     | sc2.controller:create_game:39 - Players: Bot Turtles(Terran), Computer VeryHard(Random, RandomBuild)
+2022-11-15 12:00:52.517 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2022-11-15 12:01:00.854 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2022-11-15 12:01:00.856 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot Turtles(Terran)
+2022-11-15 12:01:01.406 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.10.88500
+2022-11-15 12:01:01.408 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2022-11-15 12:01:01.479 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Jagannatha from name: Jagannatha AIE and hash: 3355197.
+2022-11-15 12:01:02.141 | [Start] My race: Terran
+2022-11-15 12:01:02.143 | [Start] Opponent race: Random
+2022-11-15 12:01:02.143 | [Start] OpponentId: None
+2022-11-15 12:01:02.352 | 00:00    7ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-11-15 12:01:02.431 | 00:01    7ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2022-11-15 12:01:02.784 | 00:04    6ms   15M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-11-15 12:01:02.830 | 00:04    7ms   25M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2022-11-15 12:01:03.910 | 00:14    6ms    0M    0G  13/ 15U [ActUnit] SCV from COMMANDCENTER at (126.5, 151.5)
+2022-11-15 12:01:05.318 | 00:26    8ms  110M    0G  14/ 15U [ActUnit] SCV from COMMANDCENTER at (126.5, 151.5)
+2022-11-15 12:01:06.697 | 00:36    9ms    0M    0G  15/ 23U [BuildGas] Building REFINERY to (133.5, 148.5)
+2022-11-15 12:01:07.439 | 00:41   10ms    0M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (126.5, 151.5)
+2022-11-15 12:01:07.521 | 00:42    6ms   10M    0G  16/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-11-15 12:01:07.569 | 00:42   10ms   20M    0G  16/ 23U [GameAnalyzer] Income advantage is now Even
+2022-11-15 12:01:07.828 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.ended (was Status.in_game)
+2022-11-15 12:01:07.829 | Result: Defeat
+2022-11-15 12:01:07.830 | Duration: 00:44
+2022-11-15 12:01:07.831 | Step time min: 6
+2022-11-15 12:01:07.832 | Step time avg: 8
+2022-11-15 12:01:07.833 | Step time max: 53
+2022-11-15 12:01:07.834 | [LostUnitsContents] My lost units minerals and gas: (0, 0)
+2022-11-15 12:01:07.834 | [LostUnitsContents] My lost units minerals by score: 0.0
+2022-11-15 12:01:07.835 | [LostUnitsContents] Enemy lost units minerals and gas: (0, 0)
+2022-11-15 12:01:07.835 | [LostUnitsContents] Enemy lost units minerals by score: 0.0
+2022-11-15 12:01:07.836 | [GameAnalyzerEnd] Own units:
+2022-11-15 12:01:07.837 | [GameAnalyzerEnd] SCV               total:  15 alive:  15 dead:   0 
+2022-11-15 12:01:07.838 | [GameAnalyzerEnd] BARRACKS          total:   1 alive:   1 dead:   0 
+2022-11-15 12:01:07.839 | [GameAnalyzerEnd] COMMANDCENTER     total:   1 alive:   1 dead:   0 
+2022-11-15 12:01:07.839 | [GameAnalyzerEnd] REFINERY          total:   1 alive:   1 dead:   0 
+2022-11-15 12:01:07.841 | [GameAnalyzerEnd] SUPPLYDEPOT       total:   1 alive:   1 dead:   0 
+2022-11-15 12:01:07.842 | [GameAnalyzerEnd] Enemy units:
+2022-11-15 12:01:07.843 | [GameAnalyzerEnd] Minerals max 210 Average 67
+2022-11-15 12:01:07.843 | [GameAnalyzerEnd] Vespene max 0 Average 0
+2022-11-15 12:01:07.844 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot Turtles(Terran): Defeat
+2022-11-15 12:01:08.949 | INFO     | sc2.protocol:__request:48 - Cannot receive: Game has already ended.
+2022-11-15 12:01:08.951 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 56720...
+2022-11-15 12:01:08.953 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

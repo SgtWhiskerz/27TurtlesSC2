@@ -1,0 +1,151 @@
+2022-11-04 19:56:27.927 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2022-11-04 19:56:27.928 | INFO     | sc2.controller:create_game:37 - Creating new game
+2022-11-04 19:56:27.930 | INFO     | sc2.controller:create_game:38 - Map:     LightshadeAIE
+2022-11-04 19:56:27.931 | INFO     | sc2.controller:create_game:39 - Players: Bot Turtles(Terran), Computer VeryHard(Random, RandomBuild)
+2022-11-04 19:56:27.933 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2022-11-04 19:56:35.607 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2022-11-04 19:56:35.608 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot Turtles(Terran)
+2022-11-04 19:56:36.336 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.10.88500
+2022-11-04 19:56:36.337 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2022-11-04 19:56:36.412 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Lightshade from name: Lightshade AIE and hash: 3553876.
+2022-11-04 19:56:37.060 | [Start] My race: Terran
+2022-11-04 19:56:37.061 | [Start] Opponent race: Random
+2022-11-04 19:56:37.062 | [Start] OpponentId: None
+2022-11-04 19:56:37.123 | ERROR    | sc2.main:run_bot_iteration:161 - Caught unknown exception: object method can't be used in 'await' expression
+Traceback (most recent call last):
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\run.py", line 18, in <module>
+    main()
+    └ <function main at 0x00000174AEC14700>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\run.py", line 13, in main
+    result, opponentid = run_ladder_game(bot)
+                         │               └ <sc2.player.Bot object at 0x00000174AEC2CFA0>
+                         └ <function run_ladder_game at 0x000001748C349360>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\ladder.py", line 39, in run_ladder_game
+    return stand_alone_game(bot), None
+           │                └ <sc2.player.Bot object at 0x00000174AEC2CFA0>
+           └ <function stand_alone_game at 0x00000174AC3295A0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\ladder.py", line 168, in stand_alone_game
+    return sc2.main.run_game(sc2.maps.get(map_name), [bot, Computer(Race.Random, Difficulty.VeryHard)], realtime=False,)
+           │   │    │        │   │    │   │           │    │        │    │       │          └ <Difficulty.VeryHard: 7>
+           │   │    │        │   │    │   │           │    │        │    │       └ <enum 'Difficulty'>
+           │   │    │        │   │    │   │           │    │        │    └ <Race.Random: 4>
+           │   │    │        │   │    │   │           │    │        └ <enum 'Race'>
+           │   │    │        │   │    │   │           │    └ <class 'sc2.player.Computer'>
+           │   │    │        │   │    │   │           └ <sc2.player.Bot object at 0x00000174AEC2CFA0>
+           │   │    │        │   │    │   └ 'LightshadeAIE'
+           │   │    │        │   │    └ <function get at 0x00000174AC3DC4C0>
+           │   │    │        │   └ <module 'sc2.maps' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\maps.py'>
+           │   │    │        └ <module 'sc2' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\__init__.py'>
+           │   │    └ <function run_game at 0x00000174AC4B8DC0>
+           │   └ <module 'sc2.main' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\main.py'>
+           └ <module 'sc2' from 'C:\\Users\\sword\\OneDrive\\Desktop\\27turtles\\sc2\\__init__.py'>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 496, in run_game
+    result: Result = asyncio.run(_host_game(map_settings, players, **kwargs))
+                     │       │   │          │             │          └ {'realtime': False}
+                     │       │   │          │             └ [<sc2.player.Bot object at 0x00000174AEC2CFA0>, <sc2.player.Computer object at 0x00000174AEC2DA20>]
+                     │       │   │          └ Map(C:\Program Files (x86)\StarCraft II\maps\LightshadeAIE.SC2Map)
+                     │       │   └ <function _host_game at 0x00000174AC4B89D0>
+                     │       └ <function run at 0x000001748E04D7E0>
+                     └ <module 'asyncio' from 'C:\\Users\\sword\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object _host_game at 0x00000174AEC48430>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000001748E04F1C0>
+           └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000001748E0FBBE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001748E054CA0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1896, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001748DFAC280>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\sword\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 369, in _host_game
+    result = await _play_game(players[0], client, realtime, portconfig, game_time_limit, rgb_render_config)
+                   │          │           │       │         │           │                └ None
+                   │          │           │       │         │           └ None
+                   │          │           │       │         └ None
+                   │          │           │       └ False
+                   │          │           └ <sc2.client.Client object at 0x00000174AEC2E950>
+                   │          └ [<sc2.player.Bot object at 0x00000174AEC2CFA0>, <sc2.player.Computer object at 0x00000174AEC2DA20>]
+                   └ <function _play_game at 0x00000174AC4B8820>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 226, in _play_game
+    result = await _play_game_ai(client, player_id, player.ai, realtime, game_time_limit)
+                   │             │       │          │      │   │         └ None
+                   │             │       │          │      │   └ False
+                   │             │       │          │      └ <turtles.bot.Turtles object at 0x000001748E046C80>
+                   │             │       │          └ <sc2.player.Bot object at 0x00000174AEC2CFA0>
+                   │             │       └ 1
+                   │             └ <sc2.client.Client object at 0x00000174AEC2E950>
+                   └ <function _play_game_ai at 0x00000174AC4B8670>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 196, in _play_game_ai
+    await run_bot_iteration(iteration)  # Main bot loop
+          │                 └ 0
+          └ <function _play_game_ai.<locals>.run_bot_iteration at 0x00000174AEC15A20>
+
+> File "C:\Users\sword\OneDrive\Desktop\27turtles\sc2\main.py", line 156, in run_bot_iteration
+    await ai.on_step(iteration)
+          │  │       └ 0
+          │  └ <function SkeletonBot.on_step at 0x00000174AC558040>
+          └ <turtles.bot.Turtles object at 0x000001748E046C80>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\knowledges\skeleton_bot.py", line 64, in on_step
+    await self.knowledge.update(iteration)
+          │    │         │      └ 0
+          │    │         └ <function Knowledge.update at 0x00000174AC53B0A0>
+          │    └ <sharpy.knowledges.knowledge.Knowledge object at 0x000001748BFD6590>
+          └ <turtles.bot.Turtles object at 0x000001748E046C80>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\knowledges\knowledge.py", line 161, in update
+    await manager.update()
+          │       └ <function ActManager.update at 0x00000174AC3A5000>
+          └ <sharpy.managers.core.act_manager.ActManager object at 0x00000174AEE63A90>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\managers\core\act_manager.py", line 32, in update
+    await self._act.execute()
+          │    │    └ <function BuildOrder.execute at 0x00000174AE8EF6D0>
+          │    └ <sharpy.plans.build_order.BuildOrder object at 0x00000174B05BD630>
+          └ <sharpy.managers.core.act_manager.ActManager object at 0x00000174AEE63A90>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\sharpy\plans\build_order.py", line 290, in execute
+    if not await order.execute():
+                 │     └ <function ReactiveBio.execute at 0x00000174AEA8F910>
+                 └ <turtles.reactivebio.ReactiveBio object at 0x00000174B058BAF0>
+
+  File "C:\Users\sword\OneDrive\Desktop\27turtles\turtles\reactivebio.py", line 199, in execute
+    foo = await self.reactdata.request_units
+                │    │         └ <function UnitDecisions.request_units at 0x00000174AEA8F6D0>
+                │    └ <turtles.decisions.unitdecisions.UnitDecisions object at 0x00000174B058BB80>
+                └ <turtles.reactivebio.ReactiveBio object at 0x00000174B058BAF0>
+
+TypeError: object method can't be used in 'await' expression
+2022-11-04 19:56:37.219 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 50081...
+2022-11-04 19:56:37.223 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

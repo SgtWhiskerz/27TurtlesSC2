@@ -1,0 +1,61 @@
+2022-10-24 11:28:33.334 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2022-10-24 11:28:33.336 | INFO     | sc2.controller:create_game:37 - Creating new game
+2022-10-24 11:28:33.337 | INFO     | sc2.controller:create_game:38 - Map:     BlackburnAIE
+2022-10-24 11:28:33.338 | INFO     | sc2.controller:create_game:39 - Players: Bot Turtles(Terran), Computer VeryHard(Random, RandomBuild)
+2022-10-24 11:28:33.341 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2022-10-24 11:28:44.922 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2022-10-24 11:28:44.924 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot Turtles(Terran)
+2022-10-24 11:28:45.420 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.10.88500
+2022-10-24 11:28:45.422 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2022-10-24 11:28:45.511 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Blackburn from name: Blackburn AIE and hash: 2657237.
+2022-10-24 11:28:46.119 | [Start] My race: Terran
+2022-10-24 11:28:46.121 | [Start] Opponent race: Random
+2022-10-24 11:28:46.121 | [Start] OpponentId: None
+2022-10-24 11:28:46.398 | 00:00    7ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-24 11:28:46.437 | 00:01    5ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2022-10-24 11:28:47.547 | 00:12    5ms   70M    0G  13/ 15U [ActUnit] SCV from COMMANDCENTER at (36.5, 31.5)
+2022-10-24 11:28:48.849 | 00:24    7ms   75M    0G  14/ 15U [ActUnit] SCV from COMMANDCENTER at (36.5, 31.5)
+2022-10-24 11:28:51.174 | 00:42    6ms  270M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (36.5, 31.5)
+2022-10-24 11:28:52.779 | 00:54    6ms  120M    0G  16/ 23U [ActUnit] SCV from COMMANDCENTER at (36.5, 31.5)
+2022-10-24 11:28:54.331 | 01:06    7ms  235M    0G  17/ 23U [ActUnit] SCV from COMMANDCENTER at (36.5, 31.5)
+2022-10-24 11:28:56.472 | 01:18   17ms  350M    0G  18/ 31U [ActUnit] SCV from COMMANDCENTER at (36.5, 31.5)
+2022-10-24 11:28:56.663 | 01:19   22ms  365M    0G  19/ 31U [GameAnalyzer] Income advantage is now SmallAdvantage
+2022-10-24 11:28:56.761 | 01:19   18ms  370M    0G  19/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2022-10-24 11:28:56.852 | 01:20   16ms  380M    0G  19/ 31U [GameAnalyzer] Income advantage is now Even
+2022-10-24 11:28:56.949 | 01:20   23ms  390M    0G  19/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2022-10-24 11:28:57.003 | 01:20   21ms  390M    0G  19/ 31U [GameAnalyzer] Income advantage is now Even
+2022-10-24 11:28:58.159 | 01:28   10ms  505M    0G  19/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2022-10-24 11:28:58.184 | 01:28   11ms  510M    0G  19/ 31U [GameAnalyzer] Income advantage is now Even
+2022-10-24 11:28:58.498 | 01:30    9ms  495M    0G  19/ 31U [ActUnit] SCV from COMMANDCENTER at (36.5, 31.5)
+2022-10-24 11:29:00.124 | 01:40   10ms  655M    0G  20/ 31U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2022-10-24 11:29:04.222 | 02:08    9ms  925M    0G  20/ 31U [ActUnit] SCV from COMMANDCENTER at (36.5, 31.5)
+2022-10-24 11:29:05.903 | 02:20   10ms 1080M    0G  21/ 31U [ActUnit] SCV from COMMANDCENTER at (36.5, 31.5)
+2022-10-24 11:29:07.916 | 02:32   12ms 1245M    0G  22/ 31U [ActUnit] SCV from COMMANDCENTER at (36.5, 31.5)
+2022-10-24 11:29:10.130 | 02:44    9ms 1445M    0G  23/ 31U [ActUnit] SCV from COMMANDCENTER at (36.5, 31.5)
+2022-10-24 11:29:10.508 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.ended (was Status.in_game)
+2022-10-24 11:29:10.511 | Result: Defeat
+2022-10-24 11:29:10.512 | Duration: 02:47
+2022-10-24 11:29:10.512 | Step time min: 5
+2022-10-24 11:29:10.513 | Step time avg: 9
+2022-10-24 11:29:10.513 | Step time max: 121
+2022-10-24 11:29:10.514 | [LostUnitsContents] My lost units minerals and gas: (0, 0)
+2022-10-24 11:29:10.515 | [LostUnitsContents] My lost units minerals by score: 0.0
+2022-10-24 11:29:10.515 | [LostUnitsContents] Enemy lost units minerals and gas: (0, 0)
+2022-10-24 11:29:10.516 | [LostUnitsContents] Enemy lost units minerals by score: 0.0
+2022-10-24 11:29:10.517 | [GameAnalyzerEnd] Own units:
+2022-10-24 11:29:10.517 | [GameAnalyzerEnd] SCV               total:  23 alive:  23 dead:   0 
+2022-10-24 11:29:10.518 | [GameAnalyzerEnd] SUPPLYDEPOT       total:   2 alive:   2 dead:   0 
+2022-10-24 11:29:10.518 | [GameAnalyzerEnd] ORBITALCOMMAND    total:   1 alive:   1 dead:   0 
+2022-10-24 11:29:10.519 | [GameAnalyzerEnd] BARRACKS          total:   1 alive:   1 dead:   0 
+2022-10-24 11:29:10.523 | [GameAnalyzerEnd] MULE              total:   1 alive:   1 dead:   0 
+2022-10-24 11:29:10.523 | [GameAnalyzerEnd] Enemy units:
+2022-10-24 11:29:10.524 | [GameAnalyzerEnd] PROBE             total:  20 alive:  20 dead:   0 
+2022-10-24 11:29:10.525 | [GameAnalyzerEnd] NEXUS             total:   2 alive:   2 dead:   0 
+2022-10-24 11:29:10.526 | [GameAnalyzerEnd] PYLON             total:   2 alive:   2 dead:   0 
+2022-10-24 11:29:10.527 | [GameAnalyzerEnd] GATEWAY           total:   1 alive:   1 dead:   0 
+2022-10-24 11:29:10.528 | [GameAnalyzerEnd] Minerals max 1490 Average 550
+2022-10-24 11:29:10.528 | [GameAnalyzerEnd] Vespene max 0 Average 0
+2022-10-24 11:29:10.529 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot Turtles(Terran): Defeat
+2022-10-24 11:29:11.596 | INFO     | sc2.protocol:__request:48 - Cannot receive: Game has already ended.
+2022-10-24 11:29:11.598 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 60483...
+2022-10-24 11:29:11.599 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes
